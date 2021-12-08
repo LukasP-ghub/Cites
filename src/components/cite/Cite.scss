@@ -1,0 +1,21 @@
+.cite{
+  grid-column: 1/-1;
+  grid-row: 1/ 2;
+  opacity: 0;
+  transition: opacity 2s;
+}
+
+ .showCite{
+   opacity:1;
+ }
+
+.cite-text{
+  margin: 1rem;
+  font-style: italic;
+  line-height: 1.5em;
+}
+
+.cite-author{
+  text-align: center;
+  font-weight: 700;
+}

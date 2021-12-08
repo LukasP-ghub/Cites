@@ -1,0 +1,11 @@
+.layout{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 70% 30%;
+  row-gap: 2rem;
+  place-items: center;
+  max-width: 600px;
+  min-height: 15rem;
+  margin: 10% auto;
+  font-size: 1.3rem;
+}
